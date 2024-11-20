@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/test")
     public String test() {
-        return "This is a test endpoint!";
+        //todo remove it
+        return "This is a test endpoint, getting tested!";
     }
     
 }
